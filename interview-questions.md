@@ -7,7 +7,8 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. As a developer, I am creating a Rails application with a model called Cohort that has_many students, but OOPS! I forgot to add the foreign key. How can I fix this mistake? What is the name of the foreign key? Would the foreign key be on the Cohort model or the Student model?
 
-  Your answer:
+  Your answer: 
+  I am going to have to research this from the ground up. This may have been the day that I logged off early. 
 
   Researched answer:
 
