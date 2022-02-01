@@ -102,7 +102,7 @@ describe("cuber ", () => {
   // Expected output: [ 2, 0, -1, 0 ]
   const hodgepodge2 = [5, "Hola", 43, -34, "greetings", true]
   // Expected output: [ 2, 1, -1 ]
-it("akes in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3 ", () => {
+it("takes in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3 ", () => {
     expect(cuber(hodgepodge1)).toEqual([ 2, 0, -1, 0 ]);
     expect(cuber(hodgepodge2)).toEqual([ 2, 1, -1 ]);
   });
