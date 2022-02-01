@@ -175,14 +175,27 @@ describe("cubeNSummer ", () => {
 //I will then add the elements of the array by iterating over them and using the += operator 
 // I also saw another way using the reduce method that would save some code. If I have time I will come back and make another funciton with it for practice. 
 
+// const cubeNSummer = (array) => {
+//   let sum = 0;
+//   let cubedArray = [];
+//    array.map(value  =>{
+//     cubedArray.push(value ** 3)
+//   })
+//   for (let i = 0; i < cubedArray.length; i++){
+//     sum += cubedArray[i];
+//   }
+//   return sum
+// }
+
+//Had time to come back and use the .reduce method I mentioned above.
+//Its all baiscally the same, but instead of using the for loop i will use .reduce
+
+
 const cubeNSummer = (array) => {
   let sum = 0;
   let cubedArray = [];
-   array.map(value  =>{
+  array.map(value => {
     cubedArray.push(value ** 3)
   })
-  for (let i = 0; i < cubedArray.length; i++){
-    sum += cubedArray[i];
-  }
-  return sum
+  return cubedArray.reduce((a, b) => a + b,0)
 }
